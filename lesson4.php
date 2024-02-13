@@ -19,7 +19,7 @@
 // 50円足りません。
 
 $yen = 10000;   // 購入金額
-$product = 248; // 商品金額
+$product = 1; // 商品金額
 
 function calc($yen, $product) {
     // この関数内に処理を記述
@@ -149,7 +149,7 @@ function calc($yen, $product) {
     <section>
         <!-- ここに結果表示 -->
         <?php
-            calc(10000,1);
+            calc($yen,$product);
         ?>
     </section>
 </body>
